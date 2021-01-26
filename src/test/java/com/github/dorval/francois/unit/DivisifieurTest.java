@@ -8,7 +8,7 @@ public class DivisifieurTest {
 
     @Test
     public void testUnitaire(){
-        int result = Divisifieur.diviser(10, 5);
-        Assert.assertEquals(result, 2);
+        int result = Divisifieur.diviser(10, 0);
+        Assert.assertEquals(result, 1);
     }
 }
